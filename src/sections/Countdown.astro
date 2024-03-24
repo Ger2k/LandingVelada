@@ -30,7 +30,7 @@ const TIMESTAMP_END = 1726241773000
     </div>
 
     <span aria-hidden="true" class="mt-1 text-xl">:</span>
-    
+
     <div class="flex flex-col justify-center items-center gap-y-2 w-16">
         <span data-days class="text-4xl tabular-nums" data-seconds>00</span> 
         <span class="text-xs text-center">Segundos</span>
@@ -88,6 +88,7 @@ const TIMESTAMP_END = 1726241773000
         }
 
         setInterval(updateCountDown, SECOND)
+        updateCountDown()
     }
 
     init()
