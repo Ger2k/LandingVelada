@@ -29,9 +29,6 @@ dependencies:
   three:
     specifier: ^0.162.0
     version: 0.162.0
-  typescript:
-    specifier: ^5.4.3
-    version: 5.4.3
 
 devDependencies:
   '@types/three':
