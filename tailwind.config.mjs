@@ -7,8 +7,10 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				'primary' : '#333',
-				'secondary' : '#ddd'
+				primary : "var(--color-primary)",
+				secondary : "var(--color-seconday)",
+				twitch: "var(--color-twitch)",
+				ice: "var(--color-twitch-ice)"
 			}
 		},
 	},
